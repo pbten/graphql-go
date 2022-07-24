@@ -3,9 +3,9 @@ package validation
 import (
 	"testing"
 
-	"github.com/graph-gophers/graphql-go/internal/query"
-	"github.com/graph-gophers/graphql-go/internal/schema"
-	"github.com/graph-gophers/graphql-go/types"
+	"github.com/pbten/graphql-go/internal/query"
+	"github.com/pbten/graphql-go/internal/schema"
+	"github.com/pbten/graphql-go/types"
 )
 
 const (

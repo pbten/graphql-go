@@ -9,13 +9,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/graph-gophers/graphql-go/errors"
-	"github.com/graph-gophers/graphql-go/internal/exec/resolvable"
-	"github.com/graph-gophers/graphql-go/internal/exec/selected"
-	"github.com/graph-gophers/graphql-go/internal/query"
-	"github.com/graph-gophers/graphql-go/log"
-	"github.com/graph-gophers/graphql-go/trace/tracer"
-	"github.com/graph-gophers/graphql-go/types"
+	"github.com/pbten/graphql-go/errors"
+	"github.com/pbten/graphql-go/internal/exec/resolvable"
+	"github.com/pbten/graphql-go/internal/exec/selected"
+	"github.com/pbten/graphql-go/internal/query"
+	"github.com/pbten/graphql-go/log"
+	"github.com/pbten/graphql-go/trace/tracer"
+	"github.com/pbten/graphql-go/types"
 )
 
 type Request struct {
